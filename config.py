@@ -14,6 +14,6 @@ else:
     CHROMEDRIVER = BASE_DIR + "/chromedrivers/chromedriver.exe"
 
 #   logging settings
-log_level = logging.DEBUG
+log_level = logging.INFO
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s', level=log_level)
 log = logging
